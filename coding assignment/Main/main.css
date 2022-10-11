@@ -1,0 +1,130 @@
+img.e {
+    position: absolute;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+span.we {
+    background-image: linear-gradient(to right, rgb(0, 195, 255), rgb(9, 240, 163));
+    font-family: fantasy;
+    vertical-align: 5px;
+}
+
+button.a {
+    background-color: aqua;
+    border-width: 5px;
+    border-color: silver;
+    border-style: inset;
+    font-size: 30pt;
+    cursor: pointer;
+}
+
+button.a:hover {
+    background-color: rgb(9, 240, 163);
+    transition-duration: 0.4s;
+}
+
+nav.A {
+    position: sticky;
+    top: 5px;
+    width: 100%;
+    background-color: rgb(67, 64, 255);
+    opacity: 0.98;
+    width: 100.5%;
+}
+
+div.A::before {
+    content: url(me.jpg);
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(0, 195, 255), rgb(9, 240, 163));
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+li {
+    display: inline;
+    font-size: 60pt;
+}
+
+ul {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+img.WI {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 700px;
+}
+
+div.text {
+    text-align: center;
+}
+
+#h1 {
+    font-family: sans-serif;
+}
+
+#hm {
+    cursor: pointer;
+}
+
+img.we {
+    vertical-align: bottom;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: medium;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn {
+    background-color: aqua;
+    border-width: 5px;
+    border-color: silver;
+    border-style: inset;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    height: 43pt;
+    vertical-align: 7px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(9, 240, 163);
+    transition-duration: 0.8s;
+}
+
+a {
+    text-decoration: none;
+}

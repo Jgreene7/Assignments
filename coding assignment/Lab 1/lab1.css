@@ -1,0 +1,101 @@
+html {
+    border-style: inset;
+    border-width: 5pt;
+    border-color: rgb(255, 166, 0);
+    height: auto;
+}
+
+body {
+    margin: auto;
+    background-repeat: repeat;
+    height: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 4px;
+    background-image: url(bbo.jpg);
+}
+
+img.home {
+    height: 15px;
+    width: 15px;
+    vertical-align: -2px;
+}
+
+a.qa {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+}
+
+div.a {
+    position: static;
+    margin: auto;
+    background-color: rgb(85, 255, 99);
+    opacity: 0.95;
+    border-style: double;
+    border-color: rgb(20, 20, 20);
+    border-width: 5pt;
+    width: 90%;
+    height: 1500px;
+    margin-bottom: 8px;
+}
+
+#W {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.zoom {
+    transition: transform .2s;
+    width: 300px;
+    height: 300px;
+    margin-left: 3px;
+    text-align: left;
+}
+.zoom:hover {
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+h1.a {
+    text-align: center;
+}
+
+hr {
+    border-color: rgb(20, 20, 20);
+    background-color: rgb(20, 20, 20);
+    height: 2pt;
+}
+
+#hm {
+    text-decoration: none;
+      color: black;
+}
+
+.float-container {
+    padding: 20px;
+    max-height: fit-content;
+
+}
+
+.float-child1 {
+    float: left;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    max-width: fit-content;
+    text-align: center;
+}  
+
+.float-child2 {
+    max-width: 65%;
+    float: left;
+    margin-left: 10mm;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    max-height: fit-content;
+}  
+
+img.e {
+    height: 20mm;
+    width: 20mm;
+}

@@ -1,0 +1,44 @@
+h1.A {
+    text-align: center;
+    font-size: 5vw;
+    font-family: Courier New;
+    margin-top: 1mm;
+    margin-bottom: 3mm;
+    text-decoration-line: underline;
+}
+
+b.a {
+    font-size: 3vw;
+    font-family: Courier New;
+}
+
+li.red {
+    background-color: red;
+}
+
+li.blue {
+    background-color: blue;
+}
+
+li.green {
+    background-color: green;
+}
+
+body {
+    background-image: url('https://my.georgiasouthern.edu/portal/images/backgrounds/light_grey.png');
+}
+
+sub.a {
+    background-color: #FFFFCC;
+}
+
+img.home {
+    height: 15px;
+    width: 15px;
+    vertical-align: -2px;
+}
+
+a.qa {
+    border-color: black;
+    border-style: solid;
+}
